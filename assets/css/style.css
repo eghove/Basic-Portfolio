@@ -113,19 +113,25 @@ p {
     margin-top: 0px;
 }
 
-.portfoliobox {
-   background-color: #4aaaa5;
-   color: white;
-   height: 60px;
-   width: 275px; 
-   text-align: center;
-   padding-top: 20px;
-   float: left;
+div.gallery {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
 }
 
-.portfoliopics {
-    float: left;
+div.description {
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 275px;
+    height: 65px;
+    padding-top: 25px;
 }
+
 
 /*Styling the name and email form boxes on contact.html */
 input[type=text], input[type=email]  {
