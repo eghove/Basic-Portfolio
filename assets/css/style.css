@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
+
 /*Styling the body default */
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url("../images/gravel.png");
 }
+
 
 /*Styling the header */
 header {
@@ -63,12 +65,13 @@ nav {
 }
 
 /* Styles the wrapper box */
-.wrapper {
+div.wrapper {
     clear: both;
     overflow: auto;
     width: 960px;
-    margin:  110px auto 0 auto;
+    margin:  110px auto 100px auto;
     background-color: #ffffff;
+    ;
 }
 
 /*Styles links */
@@ -113,6 +116,7 @@ p {
     margin-top: 0px;
 }
 
+/*Set the styling for the image gallery on portfolio.htm */
 div.gallery {
     float: left;
     margin-right: 40px;
@@ -140,11 +144,12 @@ input[type=text], input[type=email]  {
 }
 
 /*Styling the message form box on contact.html.
-Not sure how to make the text color inside the textarea change color */
+Not sure why I ended up having to set the font-family for textarea separately */
 textarea {
     width:85%;
     height: 130px;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /*Styling the submit button on contact.html */
