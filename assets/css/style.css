@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 
+/*Styling the body default */
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url("../images/gravel.png");
 }
 
+/*Styling the header */
 header {
     width: 100%;
     background-color:#ffffff;
@@ -19,6 +21,7 @@ header {
     border-bottom: solid 1px #cccccc;
 }
 
+/*Styling the nav bar, overlays the header */
 nav {
     width: 960px;
     height: 75px;
@@ -26,6 +29,7 @@ nav {
     margin: 0 auto 0 auto;
 }
 
+/*Styling my name on all pages */
 .MyNameBig {
     width: 230px;
     height: 75px;
@@ -37,10 +41,12 @@ nav {
     padding-top: 20px;
 }
 
+/*Making the Navigation Links float left, might not even need this */
 .NavLinks {
     float: left;
 }
 
+/* This appears to be vestigal from an earlier commit */
 #AboutMe {
     padding-right: 20px;
     border-right: solid 1px #cccccc;
@@ -56,7 +62,7 @@ nav {
     padding-left: 20px;
 }
 
-
+/* Styles the wrapper box */
 .wrapper {
     clear: both;
     overflow: auto;
@@ -65,15 +71,18 @@ nav {
     background-color: #ffffff;
 }
 
+/*Styles links */
 a {
     text-decoration: none; /*Removes the underlining of links */
 }
 
+/*Styles header 1 */
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 24px;
 }
 
+/*Styles the big text in the wrapper box */
 .ContentHeader {
     color: #4aaaa5;
     border-bottom: solid 2px #cccccc;
@@ -81,12 +90,13 @@ h1 {
     padding-left: 25px;
 }
 
+/*Set defalt styling for section */
 section {
     padding-top: 30px;
     padding-left: 25px;
 }
 
-
+/* Styles the picture of me on index.html */
 #PictureMe {
     width: 200px;
     height: 200px;
@@ -97,6 +107,7 @@ section {
     
 }
 
+/*Sets defaul styles for paragraphs */
 p {
     margin-right: 30px;
     margin-top: 0px;
@@ -115,19 +126,22 @@ p {
 .portfoliopics {
     float: left;
 }
-/*Styling the form boxes */
+
+/*Styling the name and email form boxes on contact.html */
 input[type=text], input[type=email]  {
     width: 85%;
     color: #777777;
 }
 
-/*Not sure how to make the text color inside the textarea change color */
+/*Styling the message form box on contact.html.
+Not sure how to make the text color inside the textarea change color */
 textarea {
     width:85%;
     height: 130px;
     color: #777777;
 }
 
+/*Styling the submit button on contact.html */
 input[type=button] {
     background-color: #4aaaa5;
     color: white;
@@ -139,6 +153,7 @@ input[type=button] {
 }
 
 
+/*Styling the footer */
 footer {
     clear: both;
     overflow: auto;
@@ -154,6 +169,7 @@ footer {
     
 }
 
+/*Styling the copyright information that rests in the footer */
 #copyright {
     text-align: center;
     font-size: 12px;
