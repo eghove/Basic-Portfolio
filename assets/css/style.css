@@ -77,6 +77,7 @@ div.wrapper {
 /*Styles links */
 a {
     text-decoration: none; /*Removes the underlining of links */
+    color: inherit;
 }
 
 /*Styles header 1 */
