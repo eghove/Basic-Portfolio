@@ -71,13 +71,18 @@ div.wrapper {
     width: 960px;
     margin:  110px auto 100px auto;
     background-color: #ffffff;
-    ;
+    border: 1px solid #cccccc;
 }
 
 /*Styles links */
 a {
     text-decoration: none; /*Removes the underlining of links */
     color: inherit;
+}
+
+/*Styling a pseudo-class */
+a:hover{
+    color: #4aaaa5;
 }
 
 /*Styles header 1 */
@@ -98,6 +103,7 @@ h1 {
 section {
     padding-top: 30px;
     padding-left: 25px;
+
 }
 
 /* Styles the picture of me on index.html */
@@ -118,14 +124,19 @@ p {
 }
 
 /*Set the styling for the image gallery on portfolio.htm */
+/*For the gallery boxes */
 div.gallery {
     float: left;
     margin-right: 40px;
     margin-bottom: 30px;
     text-align: center;
     position: relative;
+    width: 277px;
+    height: 202px;
+    border: 1px solid #cccccc;
 }
 
+/*For the labels on the gallery boxes */
 div.description {
     background-color: #4aaaa5;
     color: white;
@@ -187,6 +198,6 @@ footer {
     font-size: 12px;
     position: absolute;
     bottom: 5%;
-    left: 50%;
+    left: 45%;
     color: white;
 }
